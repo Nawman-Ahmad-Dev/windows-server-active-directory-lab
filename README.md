@@ -13,7 +13,7 @@ It demonstrates how to deploy and manage an **Active Directory domain**, **DNS**
   - 🧩 Windows Server 2019 — Domain Controller + DNS + IIS
   - 💻 Windows 10/11 — Domain-joined Staff
 - **Network:** Bridged Adapter (same LAN)
-- **IP Setup:** Static IP on Server, DHCP on Client
+- **IP Setup:** Static IP on Server, DHCP on Staff
 
 **Lab Topology**
 [Windows 10 Staff] ↔ [Windows Server 2019 Domain Controller + DNS + IIS]
@@ -32,7 +32,7 @@ It demonstrates how to deploy and manage an **Active Directory domain**, **DNS**
    - Set password policies and login restrictions via **Group Policy**
 
 3. **Client Domain Join**
-   - Joined Windows 10 machine to `nawlab.local` domain
+   - Joined Windows 10/11 machine to `nawlab.local` domain
    - Verified user login through AD
 
 4. **Website Hosting (IIS + Node.js)**
